@@ -4,7 +4,8 @@ import { QueryClientProvider, QueryClient } from 'react-query';
 import { NotFound } from '@strapi/helper-plugin';
 
 import { pluginId } from '../../utils';
-import { EditView, IndexView } from '../';
+import EditView from '../EditView';
+import IndexView from '../IndexView';
 
 const queryClient = new QueryClient( {
   defaultOptions: {
